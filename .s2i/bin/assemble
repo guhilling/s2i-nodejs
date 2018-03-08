@@ -1,0 +1,5 @@
+#!/bin/bash
+/usr/libexec/s2i/assemble
+
+
+sed -i 's/Listen 8080/Listen 8888/' /etc/httpd/conf/httpd.conf
