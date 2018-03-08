@@ -13,7 +13,7 @@ server.route({
     description: 'Say hello!',
   },
   handler: (request, reply) => {
-    reply('Hello Hapi!');
+    reply('Hello, Gunnar!');
   }
 });
 
